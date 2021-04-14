@@ -1,0 +1,68 @@
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="Content.css">
+    <title>Vulchak</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="Logo">
+            <img id="logo" src="./src/microcontroller_PNG31.png" alt="logo" />
+            <h1>VULCHAK</h1>
+        </div>
+        <nav class="nav__bar">
+            <a href="./index.html" class="nav__button">Home</a>
+            <a href="./Products.html" class="nav__button">Products</a>
+            <a href="./About_us.html" class="nav__button__active">About us</a>
+            <div onclick={toggle()} class="burger">
+                <div id="line1" class="line1"></div>
+                <div id="line2" class="line2"></div>
+                <div id="line3" class="line3"></div>
+            </div>
+            <div id="burger_nav" class="burger_nav">
+                <a href="./Index.html" class="burger_nav__button">Home</a>
+                <a href="./Products.html" class="burger_nav__button">Products</a>
+                <a href="./About_us.html" class="burger_nav__button__active">About us</a>
+            </div>
+        </nav>
+    </div> 
+</header>
+<div class="Main_content">
+    <div class="Products">
+        <div class="Info_About_As">
+            <p class="item__name"><strong>About us:</strong></p>
+            <p class="name_Info">
+                <br>This site has specifications for types Arduino boards.<br>
+                Examples of Arduino projects will also be posted later.<br><br>
+                Contacts:<br>
+                Viber:<br> +38 068 656 26 97 <br>
+                Telegram:<br> +38 068 656 26 97 <br>
+                Tel:<br> +38 068 656 26 97
+            </p>
+        </div>
+        
+    </div>
+</div>
+<footer>
+    <div class="footer_container"> 
+        <div class="Footer_image">
+            <a href="https://www.instagram.com/vulchakpavlo/"><img id="footer_image" src="./src/footer_instagram.png" alt="" /></a>
+            <a href="#"><img id="footer_image" src="./src/footer_viber.png" alt="" /></a>
+            <a href="https://t.me/VulchakPavlo"><img id="footer_image" src="./src/footer_telegram.png" alt="" /></a>
+        </div>
+        <nav class="footer_tel">Tel: +38 068 656 26 97</nav>
+    </div>
+</footer>
+<script src="./burger.js"></script>
+</body>
+</html>
