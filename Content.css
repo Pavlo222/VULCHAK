@@ -14,7 +14,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background: rgba(41, 46, 54, 0.95);
+  background: rgba(41, 46, 54, 0.85);
   transform: translate(0, 80px);
   color: white;
   border-radius: 20px;
